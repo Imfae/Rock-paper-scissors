@@ -87,4 +87,7 @@ const div = document.querySelector("div");
 const buttons = document.querySelectorAll("button");
 buttons.forEach((button)=>{
     button.addEventListener("click", playRound);
+    button.addEventListener("mouseover", ()=>{button.setAttribute('style', 'width: 190px; height: 190px; margin: 0 60px;');});
+    button.addEventListener("mouseout", ()=>{button.removeAttribute('style');});
 });
+

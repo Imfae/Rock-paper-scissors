@@ -26,12 +26,13 @@ div.container{
 .subcontainer{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    height: 200px;
 }
 
 button{
     width: 150px;
     height: 150px;
+    margin: 0px 80px;
     border-radius: 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +69,6 @@ button{
 }
 
 .win-message{
-    margin: 20px 0;
     height: 40px;
     font-size: 50px;
     color: rgb(9, 97, 9);
