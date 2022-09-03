@@ -1,0 +1,75 @@
+*{
+    background: beige;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    padding: 10px;
+    font-size: 50px;
+    font-family:  monaco;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.subcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+button{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rock{
+    background-color: grey;
+}
+
+.paper{
+    background-color: white;
+}
+
+.scissors{
+    background-color: red;
+}
+
+.computer-select{
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.round{
+    height: 30px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.score{
+    height: 30px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.win-message{
+    margin: 20px 0;
+    height: 40px;
+    font-size: 50px;
+    color: rgb(9, 97, 9);
+}
